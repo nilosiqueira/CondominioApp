@@ -1,0 +1,12 @@
+{
+  "name": "CondominioApp",
+  "app_id": "6273d079",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}

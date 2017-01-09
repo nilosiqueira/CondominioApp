@@ -1,0 +1,18 @@
+<ion-view>
+    <ion-nav-title>Condomínio App - Atas</ion-nav-title>
+    
+    <ion-content class="scroll-content ionic-scroll" overflow-scroll="false">
+        
+        <ion-icon name="arrow-dropdown"></ion-icon>
+        <ion-icon name="ios-list"></ion-icon>
+            <ion-list>
+                <div ng-repeat="ata in atas">
+                    <ion-item class="item-stable">
+                        {{ata.name}}
+                        <a href="{{ata.url}}" target="_blank" ><i class="icon icon-ata-download ion-ios-cloud-download-outline"></i></a>
+                    </ion-item>
+                </div>
+            </ion-list>
+            
+    </ion-content>    
+</ion-view>
